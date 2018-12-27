@@ -8,7 +8,6 @@ var culture = require('culturedtext');
 
 console.log(culture.oddcase("How do I import a library in nodejs?"));
 console.log(culture.aethstetic("nvm I found it."));
-);
 ```
 
 | Function | Description | Example output |
