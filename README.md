@@ -1,6 +1,11 @@
 # c u l t u r e d  t e x t
 Give your text some culture
 
+## Install it through npm
+```bash
+npm i culturedtext
+```
+
 ## Usage
 ```javascript
 // import it
