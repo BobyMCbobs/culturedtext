@@ -80,7 +80,20 @@ function surreal(input) {
   return output;
 }
 
+function stretched(input) {
+  // multiply the letters in a string
+  var output = ""
+  input.split('').map(char => {
+    // Math.round(Math.random() * 5) + 2
+    for (var x = 0; x < Math.round(Math.random() * 6) + 2; x++) {
+      output += char
+    }
+  })
+  return output
+}
+
 exports.oddcase = oddcase;
 exports.aethstetic = aethstetic;
 exports.surreal = surreal;
+exports.stretched = stretched
 exports.version = require("./package.json").version;
